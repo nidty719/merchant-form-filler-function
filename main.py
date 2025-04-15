@@ -40,9 +40,9 @@ CHECKBOX_SIZE = 10
 
 # Signature positioning (updated based on the form layout)
 SIGNATURE_POSITION = {
-    "x": 50,      # X coordinate - moved further left to align with signature line
-    "y": 50,      # Y coordinate - moved down to better align with signature line
-    "width": 350,  # Width adjusted to better fit the signature line
+    "x": 35,      # X coordinate - moved further left
+    "y": 280,     # Y coordinate - moved up significantly
+    "width": 300, # Width slightly reduced to prevent overflow
     "page": 0     # Page index (0-based)
 }
 
