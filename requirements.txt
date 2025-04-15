@@ -1,0 +1,5 @@
+functions-framework>=3.0.0
+fillpdf>=0.6.0
+PyPDF2>=3.0.0
+reportlab>=4.0.0
+Pillow>=9.0.0 
