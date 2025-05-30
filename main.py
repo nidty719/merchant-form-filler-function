@@ -226,8 +226,9 @@ def fill_pdf_form(request):
 
         # Create temporary paths for file processing
         temp_signature_path = "/tmp/signature.png"
-        temp_filled_pdf_path = f"/tmp/{OUTPUT_PDF_FILENAME.replace('.pdf', f'_temp_{datetime.now().strftime('%Y%m%d%H%M%S%f')}.pdf')}"
-        output_pdf_path = f"/tmp/{OUTPUT_PDF_FILENAME.replace('.pdf', f'_{datetime.now().strftime('%Y%m%d%H%M%S%f')}.pdf')}"
+        timestamp = datetime.now().strftime('%Y%m%d%H%M%S%f')
+        temp_filled_pdf_path = f"/tmp/{OUTPUT_PDF_FILENAME.replace('.pdf', f'_temp_{timestamp}.pdf')}"
+        output_pdf_path = f"/tmp/{OUTPUT_PDF_FILENAME.replace('.pdf', f'_{timestamp}.pdf')}"
 
         # Check if template PDF exists
         if not os.path.exists(TEMPLATE_PDF_PATH):
