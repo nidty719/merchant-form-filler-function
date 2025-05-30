@@ -81,7 +81,7 @@ FIELD_MAPPING = {
     "businessEmail": "Text_9",
     "estimatedMonthlySales": "Text_10",
     "estimatedMonthlyCCSales": "Text_11",
-    "yearsInBusiness": "Text_12",
+    "businessStartDate": "Text_12",
     "bankingInstitution": "Text_13",
     "timeRemainingOnLeaseMortgage": "Text_14",
     "businessType": "Text_15",
