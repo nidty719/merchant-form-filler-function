@@ -67,7 +67,7 @@ CHECKBOX_FIELDS = [
     "agreeToTerms"
 ]
 
-# Field mapping from input fields to PDF form fields
+# Field mapping from input fields to PDF form fields1
 FIELD_MAPPING = {
     # Text Fields
     "legalBusinessName": "Text_1",
